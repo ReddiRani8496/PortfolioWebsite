@@ -29,7 +29,7 @@
 }
 
 #welcome {
-  background-color: #ebebeb;
+  background-color: #f8f8f8;
   display: flex;
   gap: 100px;
   justify-content: center;
@@ -78,4 +78,268 @@
   border-radius: 15px;
   padding: 15px;
   font-size: 20px;
+}
+
+.photo-welcome {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+#tech-stack {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+}
+
+.react-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+.stack-container {
+  background-color: white;
+  z-index: 999;
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills {
+  padding: 80px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.skills-header h1 {
+  font-size: 42px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.skills-header p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.skill-card {
+  background: white;
+  padding: 35px 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  cursor: pointer;
+  i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  i::before {
+    font-size: 60px;
+  }
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.skill-card h3 {
+  font-size: 22px;
+  color: #222;
+  font-weight: 600;
+}
+
+#companies {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.company-icon {
+  height: 100px;
+  width: 300px;
+  object-fit: contain;
+}
+
+#contact {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-heading h1 {
+  font-size: 42px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.contact-heading p {
+  color: #777;
+  font-size: 18px;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact-card {
+  width: 400px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 18px;
+  text-align: center;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card i {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.contact-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.contact-card p {
+  color: #777;
+  font-size: 17px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 380px;
+  padding: 20px 25px;
+  border-radius: 20px;
+  border: 2px solid #bbb;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+.contact-form textarea {
+  height: 130px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 140px;
+  padding: 16px;
+  border: none;
+  border-radius: 18px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+}
+
+.contact-form button i {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 30px;
+
+    li {
+      font-size: 20px;
+    }
+  }
+}
+
+.footer-icons {
+  i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  i::before {
+    font-size: 30px;
+  }
 }
