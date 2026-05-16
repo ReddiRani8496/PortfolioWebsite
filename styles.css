@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  /* justify-content: center; */
+  margin-left: 22%;
+  font-weight: bold;
+  font-size: 22px;
+
+  li {
+    cursor: pointer;
+  }
+
+  li:hover {
+    color: #219ebc;
+    font-size: 25px;
+  }
+}
+
+#welcome {
+  background-color: #ebebeb;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 50px;
+
+  a {
+    height: 20px;
+  }
+
+  i {
+    color: black;
+    cursor: pointer;
+  }
+
+  i:hover {
+    font-size: 20px;
+  }
+}
+
+.personal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.role {
+  margin-left: 25px;
+}
+
+.hello-button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 20px;
+}
