@@ -1,2 +1,2 @@
 # PortfolioWebsite
-Portfolio Website Using HTML, CSS
+Portfolio Website Using HTML, CSS, Javascript
