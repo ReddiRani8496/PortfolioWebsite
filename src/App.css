@@ -261,10 +261,20 @@
 }
 
 @media (max-width: 480px) {
+  .header {
+    height: 60px;
+    justify-content: flex-start; /* move hamburger left */
+    padding-left: 20px;
+  }
   #welcome {
     gap: 20px;
     padding-top: 100px;
     padding-bottom: 20px;
+  }
+
+  #welcome {
+    margin-top: 60px;
+    padding-top: 20px;
   }
 
   .contact-icons {
@@ -287,6 +297,17 @@
   .hello-button {
     font-size: 14px;
     padding: 10px 18px;
+  }
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .list-container {
+    display: none;
+  }
+
+  .mobile-nav {
+    top: 60px;
   }
 }
 
