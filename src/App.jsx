@@ -1,23 +1,27 @@
-import About from "./sections/About";
-import Clients from "./sections/Clients";
-import Contact from "./sections/Contact";
-import Experience from "./sections/Experience";
-import Footer from "./sections/Footer";
-import Hero from "./sections/Hero";
-import Navbar from "./sections/Navbar";
-import Projects from "./sections/Projects";
+import "./App.css";
 
-export default function App() {
+import Header from "./components/Header";
+import Welcome from "./components/Welcome";
+import TechStack from "./components/TechStack";
+import Skills from "./components/Skills";
+import Companies from "./components/Companies";
+import Projects from "./components/Projects";
+import GetInTouch from "./components/GetInTouch";
+import Footer from "./components/Footer";
+
+function App() {
   return (
-    <main className="max-w-7xl ">
-      <Navbar />
-      <Hero />
-      <About />
+    <>
+      <Header />
+      <Welcome />
+      <TechStack />
+      <Skills />
+      <Companies />
       <Projects />
-      <Clients />
-      <Experience />
-      <Contact />
+      <GetInTouch />
       <Footer />
-    </main>
+    </>
   );
 }
+
+export default App;
