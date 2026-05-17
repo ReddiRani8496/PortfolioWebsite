@@ -10,4 +10,5 @@ export default defineConfig({
       promiseImportName: (i) => `__tla_${i}`,
     }),
   ],
+  base: "/PortfolioWebsite/",
 });

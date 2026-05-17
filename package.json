@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://reddirani8496.github.io/PortfolioWebsite/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -15,6 +18,7 @@
     "@react-three/drei": "^9.121.4",
     "@react-three/fiber": "^8.17.14",
     "@types/three": "^0.168.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "leva": "^0.9.36",
     "maath": "^0.10.8",
