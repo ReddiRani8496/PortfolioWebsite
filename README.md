@@ -66,7 +66,7 @@ This is a **modern, interactive portfolio website** built with React and Vite. I
 | ---------------------- | ---------------------------- |
 | **Frontend Framework** | React 18+                    |
 | **Build Tool**         | Vite 5+                      |
-| **Styling**            | CSS3 (Custom)                |
+| **Styling**            | Tailwind CSS                 |
 | **Scripting**          | JavaScript (ES6+)            |
 | **Code Quality**       | ESLint                       |
 | **Development**        | HMR (Hot Module Replacement) |
